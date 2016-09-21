@@ -1,9 +1,9 @@
-package com.test;
+package calc.test;
 
 import java.util.Scanner;
 
 
-public class Test {
+public class calc {
 
 
     public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class Test {
         System.out.println("3. Division");
         System.out.println("4. Multiplication");
 
-        System.out.print("\nWhat would you like to do?: ");
+        System.out.print("\nWhat would you like to do?:1 ");
         int choice = kb.nextInt();
         System.out.println();
 

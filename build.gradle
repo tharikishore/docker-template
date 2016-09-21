@@ -13,7 +13,7 @@ apply plugin: 'java'
 apply plugin: 'groovy'
 apply plugin: 'application'
 
-mainClassName = "com.test.Test"
+mainClassName = "calc.test.calc"
 
 // In this section you declare where to find the dependencies of your project
 repositories {
@@ -34,3 +34,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
+run{
+	standardInput = System.in
+}
