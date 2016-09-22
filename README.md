@@ -14,4 +14,6 @@ Execute the code using gradlew
 ./gradlew run
 Exit from the Container.
 Find the git status.
+Push into Remote repository.: $ git push -u origin master
+
 
